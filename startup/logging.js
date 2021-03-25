@@ -35,7 +35,7 @@ module.exports = function () {
     })
   );
 
-  winston.info("running in " + env + " environment");
+  // winston.info("running in " + env + " environment");
   // }
 
   process.on("uncaughtException", (error, origin) => {
