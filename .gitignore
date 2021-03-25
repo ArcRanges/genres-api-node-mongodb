@@ -1,6 +1,4 @@
 node_modules/
 coverage/
-production.json
-
 errors.log
 serverlog.log
