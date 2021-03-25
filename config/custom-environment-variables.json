@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey": "genres_jwtPrivateKey"
+    "jwtPrivateKey": "genres_jwtPrivateKey",
+    "db": "genres_db"
 }
