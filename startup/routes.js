@@ -6,10 +6,17 @@ const rentals = require("../routes/rentals");
 const users = require("../routes/users");
 const auth = require("../routes/auth");
 const { errorHandler } = require("../middleware/error");
+const morgan = require("morgan");
+const winston = require("winston");
 
 module.exports = function (app) {
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+
+  if (process.env.NODE_ENV === "development") {
+    app.use(morgan("tiny"));
+    winston.info("morgan enabled...");
+  }
 
   app.use("/api/genres", genres);
   app.use("/api/customers", customers);
