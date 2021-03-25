@@ -38,13 +38,13 @@ module.exports = function () {
   // winston.info("running in " + env + " environment");
   // }
 
-  process.on("uncaughtException", (error, origin) => {
-    winston.error(error);
-    process.exit(1);
-  });
+  // process.on("uncaughtException", (error, origin) => {
+  //   winston.error(error);
+  //   process.exit(1);
+  // });
 
-  process.on("unhandledRejection", (error, origin) => {
-    winston.error(error);
-    process.exit(1);
-  });
+  // process.on("unhandledRejection", (error, origin) => {
+  //   winston.error(error);
+  //   process.exit(1);
+  // });
 };
