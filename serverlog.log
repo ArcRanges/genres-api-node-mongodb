@@ -2,3 +2,23 @@
 {"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
 {"message":"listening in port 3000","level":"info"}
 {"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}
+{"message":"running in development environment","level":"info"}
+{"message":"morgan enabled...","level":"info"}
+{"message":"listening in port 3000","level":"info"}
+{"message":"connected to mongodb://localhost:27017/chillax","level":"info"}

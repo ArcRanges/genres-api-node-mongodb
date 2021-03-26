@@ -2,7 +2,7 @@
 
 _A REST API built using NodeJS, ExpressJS, and MongoDB._
 
-_Live Demo: https://warm-escarpment-31278.herokuapp.com/api/genres_
+_Live Demo: https://warm-escarpment-31278.herokuapp.com/api/_
 
 ## Dependencies (At time of initialization)
 
@@ -19,6 +19,7 @@ _Live Demo: https://warm-escarpment-31278.herokuapp.com/api/genres_
 - lodash: 4.17.21 - array & object manipluations
 - mongodb: 3.6.5 - backend NoSQL database
 - mongoose: 5.12.1 - framework for connecting with mongodb
+- pug: 3.0.2 - for HTML templating and rendering
 - winston: 3.3.3 - logging information to files
 - winston-mongodb: 5.0.7 - winston helper to connect with mongodb
 

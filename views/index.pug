@@ -1,0 +1,12 @@
+html
+    head
+        title= title
+    body
+        h1= message
+        h2= "A simple REST API built using NodeJS, ExpressJS, and MongoDB."
+        h4= "Available endpoints"
+        ul
+            each val in routes
+                li= val.name + " - " + val.path
+
+        a(href="//github.com/ArcRanges/genres-api-node-mongodb" target="_blank") Give it a star on Github
