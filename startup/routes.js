@@ -8,7 +8,6 @@ const users = require("../routes/users");
 const auth = require("../routes/auth");
 const { errorHandler } = require("../middleware/error");
 const winston = require("winston");
-const morgan = require("morgan");
 
 module.exports = function (app) {
   app.use(express.json());
@@ -16,6 +15,7 @@ module.exports = function (app) {
   app.set("view engine", "pug");
 
   if (process.env.NODE_ENV === "development") {
+    const morgan = require("morgan");
     app.use(morgan("tiny"));
     winston.info("morgan enabled...");
   }
